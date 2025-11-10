@@ -1,0 +1,27 @@
+# Maven build directories
+/target/
+/test-output/
+
+# IDE and OS files
+/.classpath
+/.project
+/.settings/
+/.idea/
+/.vscode/
+*.iml
+.DS_Store
+
+# Logs and reports
+*.log
+*.tmp
+*.html
+*.json
+*.xml
+*.csv
+
+# Environment files or secrets
+*.env
+config/
+credentials/
+.env
+secrets/
