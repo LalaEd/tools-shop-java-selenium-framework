@@ -1,0 +1,36 @@
+{
+  "signupData": {
+	  "firstName": "Test",
+	  "lastName": "Test",
+	  "address": "Adresa",
+	  "city": "Grad",
+	  "state": "FBiH",
+	  "zip": "987654",
+	  "phone": "666-555",
+	  "socialNumber": "12345",
+	  "username": "TestLala",
+	  "password": "Test12345",
+	  "passwordConfirm": "Test12345"
+  },
+  "invalidUsernamePassword": {
+    "username": "wrongUser123",
+    "password": "WrongPass123"
+  },
+  "validUsernamePassword": {
+      "username": "TestLala",
+      "password": "Test12345"
+  },
+  "pageTitles": {
+        "accountsOwerview": "ParaBank | Accounts Overview",
+        "welcomeTitle": "ParaBank | Welcome | Online Banking",
+		"customerCreated": "ParaBank | Customer Created"
+  },
+  "errorMessages": {
+          "missingUserNamePassword": "Please enter a username and password.",
+          "invalidUserNamePassword": "The username and password could not be verified.",
+		  "existingUser": "This username already exists.",
+		  "missingLastName": "Last name is required.",
+		  "missingPasswordConfirmation": "Password confirmation is required.",
+		  "missingSsn": "Social Security Number is required."
+    }
+}
